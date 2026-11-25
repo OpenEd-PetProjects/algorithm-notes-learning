@@ -1,0 +1,7 @@
+body { margin: 0; color: #222; font: 1rem system-ui, sans-serif; }
+main { max-width: 40rem; margin: 2rem auto; padding: 0 1rem; }
+form { display: grid; gap: .5rem; }
+input, textarea, button { padding: .5rem; font: inherit; }
+textarea { min-height: 6rem; }
+button { justify-self: start; cursor: pointer; }
+li { margin: 1rem 0; white-space: pre-wrap; }

@@ -1,5 +1,5 @@
-# Pet project
+# Заметки об алгоритмах
 
-Record what you want to build and how you will know it works. Use the project brief in Loom to choose the first small task.
+Откройте `index.html` в браузере, чтобы добавлять заметки. Данные хранятся в локальном хранилище этого браузера.
 
-Update the `test` recipe in `Justfile` to run your project tests. The initial `just test` fails until you add a test command. GitHub Actions runs the same recipe on pushes and pull requests.
+Для запуска тестов установите Node.js и выполните `just test` (или `node test.js`).
