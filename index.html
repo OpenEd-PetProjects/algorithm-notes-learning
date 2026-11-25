@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Заметки об алгоритмах</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Заметки об алгоритмах</h1>
+    <form id="note-form">
+      <label for="title">Название</label>
+      <input id="title" required>
+      <label for="text">Текст заметки</label>
+      <textarea id="text" required></textarea>
+      <button type="submit">Добавить заметку</button>
+    </form>
+    <p id="message" role="status"></p>
+    <h2>Список заметок</h2>
+    <ul id="notes"></ul>
+  </main>
+</body>
+</html>
